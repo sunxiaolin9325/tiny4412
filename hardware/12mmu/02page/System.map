@@ -1,0 +1,16 @@
+500082d0 A __bss_end__
+500082d0 A __bss_start
+500082d0 A __bss_start__
+500082d0 A __end__
+500002d0 A __exidx_end
+500002d0 A __exidx_start
+500082d0 A _bss_end__
+500082d0 A _edata
+500082d0 A _end
+50000000 T _start
+500000ec T create_table
+50000010 T main
+500000cc T mmu_disable
+500000ac T mmu_enable
+500001d8 T my_mmap
+50000004 t reset

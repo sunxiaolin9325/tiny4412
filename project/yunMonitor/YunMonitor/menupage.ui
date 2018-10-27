@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MenuPage</class>
+ <widget class="QDialog" name="MenuPage">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>480</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(51, 51, 51);</string>
+  </property>
+  <widget class="QPushButton" name="backPushButton">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>410</y>
+     <width>160</width>
+     <height>70</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Ubuntu</family>
+     <pointsize>32</pointsize>
+     <weight>50</weight>
+     <italic>false</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(77, 140, 245);
+font: 32pt &quot;Ubuntu&quot;;
+color: rgb(0, 0, 0);</string>
+   </property>
+   <property name="text">
+    <string>返回</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="homePushButton">
+   <property name="geometry">
+    <rect>
+     <x>320</x>
+     <y>410</y>
+     <width>160</width>
+     <height>70</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Ubuntu</family>
+     <pointsize>32</pointsize>
+     <weight>50</weight>
+     <italic>false</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(77, 140, 245);
+font: 32pt &quot;Ubuntu&quot;;
+color: rgb(0, 0, 0);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="menuPushButton">
+   <property name="geometry">
+    <rect>
+     <x>640</x>
+     <y>410</y>
+     <width>160</width>
+     <height>70</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Ubuntu</family>
+     <pointsize>32</pointsize>
+     <weight>50</weight>
+     <italic>false</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(77, 140, 245);
+font: 32pt &quot;Ubuntu&quot;;
+color: rgb(0, 0, 0);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>410</y>
+     <width>800</width>
+     <height>70</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>30</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(211, 219, 43);
+background-color: rgb(35, 35, 35);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>60</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Ubuntu</family>
+     <pointsize>32</pointsize>
+     <weight>50</weight>
+     <italic>false</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(27, 27, 27);
+font: 32pt &quot;Ubuntu&quot;;
+color: rgb(230, 127, 118);</string>
+   </property>
+   <property name="text">
+    <string>温湿度监控报警系统</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="setPasswdPushButton">
+   <property name="geometry">
+    <rect>
+     <x>560</x>
+     <y>95</y>
+     <width>160</width>
+     <height>70</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Ubuntu</family>
+     <pointsize>28</pointsize>
+     <weight>50</weight>
+     <italic>false</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 28pt &quot;Ubuntu&quot;;
+color: rgb(51, 51, 51);
+background-color: rgb(134, 182, 87);</string>
+   </property>
+   <property name="text">
+    <string>设置密码</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="resetPushButton">
+   <property name="geometry">
+    <rect>
+     <x>560</x>
+     <y>305</y>
+     <width>160</width>
+     <height>70</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Ubuntu</family>
+     <pointsize>28</pointsize>
+     <weight>50</weight>
+     <italic>false</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 28pt &quot;Ubuntu&quot;;
+color: rgb(51, 51, 51);
+background-color: rgb(134, 182, 87);</string>
+   </property>
+   <property name="text">
+    <string>出厂设置</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="humiTablePushButton">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>200</y>
+     <width>160</width>
+     <height>70</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Ubuntu</family>
+     <pointsize>28</pointsize>
+     <weight>50</weight>
+     <italic>false</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 28pt &quot;Ubuntu&quot;;
+color: rgb(51, 51, 51);
+background-color: rgb(134, 182, 87);</string>
+   </property>
+   <property name="text">
+    <string>湿度表</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="remotePushButton">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>305</y>
+     <width>160</width>
+     <height>70</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Ubuntu</family>
+     <pointsize>28</pointsize>
+     <weight>50</weight>
+     <italic>false</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 28pt &quot;Ubuntu&quot;;
+color: rgb(51, 51, 51);
+background-color: rgb(134, 182, 87);</string>
+   </property>
+   <property name="text">
+    <string>远程</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="humiGraphPushButton">
+   <property name="geometry">
+    <rect>
+     <x>320</x>
+     <y>200</y>
+     <width>160</width>
+     <height>70</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Ubuntu</family>
+     <pointsize>28</pointsize>
+     <weight>50</weight>
+     <italic>false</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 28pt &quot;Ubuntu&quot;;
+color: rgb(51, 51, 51);
+background-color: rgb(134, 182, 87);</string>
+   </property>
+   <property name="text">
+    <string>湿度曲线</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="setAlarmPushButton">
+   <property name="geometry">
+    <rect>
+     <x>560</x>
+     <y>200</y>
+     <width>160</width>
+     <height>70</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Ubuntu</family>
+     <pointsize>28</pointsize>
+     <weight>50</weight>
+     <italic>false</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 28pt &quot;Ubuntu&quot;;
+color: rgb(51, 51, 51);
+background-color: rgb(134, 182, 87);</string>
+   </property>
+   <property name="text">
+    <string>设置报警</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="dateTimePushButton">
+   <property name="geometry">
+    <rect>
+     <x>320</x>
+     <y>305</y>
+     <width>160</width>
+     <height>70</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Ubuntu</family>
+     <pointsize>28</pointsize>
+     <weight>50</weight>
+     <italic>false</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 28pt &quot;Ubuntu&quot;;
+color: rgb(51, 51, 51);
+background-color: rgb(134, 182, 87);</string>
+   </property>
+   <property name="text">
+    <string>日期时间</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="tempGraphPushButton">
+   <property name="geometry">
+    <rect>
+     <x>320</x>
+     <y>95</y>
+     <width>160</width>
+     <height>70</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Ubuntu</family>
+     <pointsize>28</pointsize>
+     <weight>50</weight>
+     <italic>false</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 28pt &quot;Ubuntu&quot;;
+color: rgb(51, 51, 51);
+background-color: rgb(134, 182, 87);</string>
+   </property>
+   <property name="text">
+    <string>温度曲线</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="tempTablePushButton">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>95</y>
+     <width>160</width>
+     <height>70</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Ubuntu</family>
+     <pointsize>28</pointsize>
+     <weight>50</weight>
+     <italic>false</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 28pt &quot;Ubuntu&quot;;
+color: rgb(51, 51, 51);
+background-color: rgb(134, 182, 87);</string>
+   </property>
+   <property name="text">
+    <string>温度表</string>
+   </property>
+  </widget>
+  <zorder>menuPushButton</zorder>
+  <zorder>homePushButton</zorder>
+  <zorder>label_3</zorder>
+  <zorder>backPushButton</zorder>
+  <zorder>label</zorder>
+  <zorder>setPasswdPushButton</zorder>
+  <zorder>resetPushButton</zorder>
+  <zorder>humiTablePushButton</zorder>
+  <zorder>remotePushButton</zorder>
+  <zorder>humiGraphPushButton</zorder>
+  <zorder>setAlarmPushButton</zorder>
+  <zorder>dateTimePushButton</zorder>
+  <zorder>tempGraphPushButton</zorder>
+  <zorder>tempTablePushButton</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

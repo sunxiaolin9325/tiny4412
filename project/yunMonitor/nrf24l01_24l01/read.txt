@@ -1,0 +1,10 @@
+tiny4412与nrf24l01的物理连接
+   1       GND     GND
+   2       VCC     VCC3.3V
+   3       CE      TXD2                    GPA1_1  OUT
+   4       CSN     XspiCSn0_B              GPB_1   OUT
+   5       SCK     XspiCLK0_B              GPB_0   OUT
+   6       MOSI    XspiMOSI0/i2cSCL4_B     GPB_3   OUT
+   7       MISO    XspiMISO0/i2cSDA4_B     GPB_2   IN
+   8       IRQ     RXD2                    GPA1_0  IN
+

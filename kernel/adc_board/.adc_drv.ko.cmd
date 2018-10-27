@@ -1,0 +1,1 @@
+cmd_/home/lin/driver/code/kernel/adc_board/adc_drv.ko := arm-linux-ld -EL -r  -T /home/lin/driver/linux-3.5/scripts/module-common.lds --build-id  -o /home/lin/driver/code/kernel/adc_board/adc_drv.ko /home/lin/driver/code/kernel/adc_board/adc_drv.o /home/lin/driver/code/kernel/adc_board/adc_drv.mod.o
